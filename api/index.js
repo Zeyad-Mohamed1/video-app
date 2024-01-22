@@ -15,7 +15,7 @@ dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: "https://zeyad-tube.vercel.app/",
+    origin: "https://zeyad-tube.vercel.app",
     credentials: true
 }));
 
