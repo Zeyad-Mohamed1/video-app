@@ -52,7 +52,7 @@ app.use((err, req, res, next) => {
 
 
 // server
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 8800, () => {
     connect();
 })
 
