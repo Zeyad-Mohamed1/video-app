@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const makeRequest = axios.create({
-    baseURL: "https://fabulous-croissant-959d76.netlify.app/api",
+    baseURL: "https://video-api-five.vercel.app/api",
     withCredentials: true,
 });
