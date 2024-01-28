@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(helmet());
 app.use(cors({
-    origin: "*",
+    origin: "https://zeyad-tube.vercel.app",
     credentials: true
 }));
 
